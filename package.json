@@ -1,0 +1,27 @@
+{
+    "dependencies": {
+        "@iamtraction/google-translate": "^1.1.2",
+        "axios": "^0.21.1",
+        "discord.js": "^12.5.3",
+        "discord.js-buttons": "^1.0.0",
+        "discord.js-pagination": "^1.0.3",
+        "ejs": "^3.1.6",
+        "google-it": "^1.6.2",
+        "pretty-ms": "^7.0.1",
+        "simple-youtube-api": "^5.2.1",
+        "snekfetch": "^4.0.4"
+    },
+    "production": false,
+    "name": "cbot",
+    "version": "0.0.3a",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "server": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
