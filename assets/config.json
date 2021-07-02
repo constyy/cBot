@@ -1,12 +1,12 @@
 {
     "bot": {
-        "token": "ODUwMjUzMTAxODk3NzQ0NDA0.YLnB6A.E6FiiZK77xt5vEkNcebBz0cYcTM",
+        "token": "YOUR_TOKEN",
         "id": "850663756870451230",
         "prefix": "$"
     },
     "apis": {
         "port": "80",
-        "crypto": "aafce0e5-329d-4b19-917c-3c460d38a6f7"
+        "crypto": "pro-api.coinmarketcap.com_key"
     },
     "theme": {
         "main": "#c94238"
