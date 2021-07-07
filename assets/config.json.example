@@ -1,7 +1,7 @@
 {
     "bot": {
         "token": "YOUR_TOKEN",
-        "id": "850663756870451230",
+        "id": "YOUR_BOT_ID",
         "prefix": "$"
     },
     "apis": {
