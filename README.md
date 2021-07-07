@@ -9,7 +9,7 @@
 - After downloading:
 Open the archive, unzip and open a PowerShell in cBot-main folder.
  <img src="https://i.imgur.com/JmZ8wT1.png" alt="Open Ps"/>
-Type <div style=font-weight:bold>npm install</div>
+Type <p style="font-weight:bold">npm install</div>
 
 ### 🥇 Other
 - ⚡ Fun fact: The bot has been coded in under a week.
