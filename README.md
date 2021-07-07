@@ -11,9 +11,9 @@
 - After downloading:
 Open the archive, unzip and open a PowerShell in cBot-main folder.
  <img src="https://i.imgur.com/JmZ8wT1.png" alt="Open Ps"/>
-Type npm install and wait.
-After the packages are installed, type node index.js OR npm start OR npm server
-This is how the bot should look if it started properly and the beta branch it's still here:
+<p>Type npm install and wait.</p>
+<p>After the packages are installed, type node index.js OR npm start OR npm server</p>
+<p>This is how the bot should look if it started properly and the beta branch it's still here:</p>
  <img src="https://i.imgur.com/wvxsBLt.png" alt="Bot ex"/>
 Have fun!
 
