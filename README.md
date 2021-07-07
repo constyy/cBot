@@ -1,4 +1,4 @@
-<p align=center>✨ _a very useful bot._ ✨</p>
+<p align=center>✨ cBot - developed by consty ✨</p>
 
 ### :hash: Used packages
 - discord.js v12.5.3
