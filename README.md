@@ -1,4 +1,4 @@
-<div align=center>✨ cBot - Informations & Installation guide ✨</div>
+<div align=center>✨ cBot - Information & Installation guide ✨</div>
 
 
 ### :hash: Used packages
