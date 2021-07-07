@@ -23,7 +23,7 @@ module.exports = {
                 .addField('Developer informations', `consty#9468\napi: ${Math.round(message.client.ws.ping)}ms\nproduction: ${package.production}`, true)
                 .addField('Language', `packages: ${Object.keys(package.dependencies).length}\nnode ${process.version.match(/^v(\d+\.\d+)/)[1]}\ndiscord.js ${require('discord.js').version}\nsnekfetch ${package.dependencies.snekfetch.replace('^', '')}\n${package.name} ${package.version}`, false)
                 .addField('Status', `users: ${r.body.users}\nguilds: ${r.body.guilds}\nram: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}mb\nuptime: ${prettyMilliseconds(message.client.uptime)}\ncommands: ${commands.size}\nstatus: ${message.client.presence.status}\ncategories: ${getDirectories('./commands').length}`, true)
-                .addField('Support', `support server: n-avem\nsocial media: tot n-avem\ngithub: not public yet\nshards: 0\npowered by: npmjs.com\nlicense: ${package.license}`, false)
+                .addField('Support', `github: [click](https://github.com/constyy/cBot)\nshards: 0\npowered by: npmjs.com\nlicense: ${package.license}`, false)
                 .setFooter(`requested by ${message.author.username} | action time: ${new Date(Date.now()).toString().substr(4, 17)}`)
             message.channel.send(embed)
         })
