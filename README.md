@@ -11,6 +11,22 @@
 - After downloading:
 Open the archive, unzip and open a PowerShell in cBot-main folder.
  <img src="https://i.imgur.com/JmZ8wT1.png" alt="Open Ps"/>
+<p>Create a config.json with this content:</p>
+<quote>{
+    "bot": {
+        "token": "YOUR_TOKEN",
+        "id": "YOUR_BOT_ID",
+        "prefix": "$"
+    },
+    "apis": {
+        "port": "80",
+        "crypto": "pro-api.coinmarketcap.com_key"
+    },
+    "theme": {
+        "main": "#c94238"
+    },
+    "admins": []
+}</quote>
 <p>Type npm install and wait.</p>
 <p>After the packages are installed, type node index.js OR npm start OR npm server</p>
 <p>This is how the bot should look if it started properly and the beta branch it's still here:</p>
